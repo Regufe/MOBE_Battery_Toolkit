@@ -1,0 +1,7 @@
+{
+    "battery_id": "B0005",
+    "nominal_capacity_Ah": 2.0,
+    "min_voltage_V": 2.7,
+    "max_voltage_V": 4.2,
+    "source_type": "generic"
+}
