@@ -12,6 +12,7 @@ Project Structure
 
 The project directory is organized as follows:
 
+```
 MOBE_PROJECT/
 ├── batData/                  # Directory for raw input files (e.g., NASA .mat files)
 ├── Batteries/                # Processed output directory
@@ -21,6 +22,7 @@ MOBE_PROJECT/
 ├── MOBI.venv/                # Python Virtual Environment
 ├── MOBE Battery Toolkit.py   # Main application entry point
 └── README.md                 # Project documentation
+```
 
 
 Installation and Setup
