@@ -2432,7 +2432,7 @@ def show_battery_info(battery_id, store):
         df_ocv = pd.read_csv(ocv_path)
         print(f"    Points: {len(df_ocv)}")
     else:
-        UIHelper.print_warning("OCV curve not yet extracted (run Option 3)")
+        UIHelper.print_warning("OCV curve not yet extracted (run Option 4 or 5)")
     
     params_path = store._safe_path(battery_id, "BatteryData", "parameter_evolution.csv")
     if os.path.exists(params_path):
@@ -2441,7 +2441,7 @@ def show_battery_info(battery_id, store):
         print(f"    Cycles trained: {len(df_params)}")
         print(f"    Average RMSE: {df_params['RMSE'].mean()*1000:.1f} mV")
     else:
-        UIHelper.print_warning("Model not yet trained (run Option 4 or 5)")
+        UIHelper.print_warning("Model not yet trained (run Option 6 or 7)")
     
     input("\nPress Enter to continue...")
 
@@ -2478,7 +2478,7 @@ def main():
         if batteries:
             print(f"\n{UIHelper.colored('Available Batteries:', 'BOLD')} {', '.join([UIHelper.colored(b, 'CYAN') for b in batteries])}")
         else:
-            print(f"\n{UIHelper.colored('No batteries loaded', 'YELLOW')} - Create one with Option 2")
+            print(f"\n{UIHelper.colored('No batteries loaded', 'YELLOW')} - Create one with Option 1")
         
         # Menu organized by category
         print(f"\n{UIHelper.colored('═══ SETUP & DATA ═══', 'HEADER')}")
