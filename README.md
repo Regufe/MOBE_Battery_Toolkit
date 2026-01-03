@@ -1,5 +1,9 @@
 # MOBE Battery Toolkit
 
+## .EXE Download
+
+https://drive.google.com/drive/folders/1Q8onqxWK8suAz58oizl8Bd0QhkDUW0X5?usp=sharing
+
 ## Overview
 
 The MOBE Battery Toolkit is a Python-based simulation and analysis engine designed to model Lithium-Ion battery behavior. It integrates the KiBaM (Kinetic Battery Model) to simulate charge recovery effects with an Equivalent Circuit Model (ECM) to capture transient voltage responses.
