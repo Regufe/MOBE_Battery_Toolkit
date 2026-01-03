@@ -1,0 +1,7 @@
+{
+    "battery_id": "RW3",
+    "nominal_capacity_Ah": 2.1,
+    "min_voltage_V": 3.2,
+    "max_voltage_V": 4.2,
+    "source_type": "generic"
+}
